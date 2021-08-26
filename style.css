@@ -8,6 +8,15 @@ body {
   text-transform: uppercase;
 }
 
+.logoDes {
+  font-size: 13px;
+}
+
+.logoDes > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .carousel-item {
   position: relative;
 }
@@ -39,4 +48,22 @@ body {
 
 .carousel-item .carousel-caption h5 {
   opacity: 1;
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexBox img {
+  height: 300px;
+  max-width: 300px;
+  object-fit: cover;
+  flex: 1 1 100%;
+  overflow: hidden;
+  transition: transform 0.2s ease-in 0s;
+}
+
+#gallery img:hover {
+  transform: scale(1.2);
 }
