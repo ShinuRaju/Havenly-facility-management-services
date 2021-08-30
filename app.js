@@ -1,7 +1,9 @@
-import { servicesList } from "./data.js";
+import { servicesList, carouselItem } from "./data.js";
 
 let serBox = document.querySelector(".servicesBox");
 let galleryBox = document.querySelector("#gallery");
+let carouselInner = document.querySelector(".carousel-inner");
+let carouselItems = Array.from(document.querySelectorAll(".carousel-item"));
 
 const addCss = (elem, style) => {
   elem = elem.trim();
@@ -39,3 +41,19 @@ for (let i = 1; i <= 36; i++) {
 }
 
 galleryBox.innerHTML = wholeImages;
+
+for (let i = 0; i < carouselItems.length; i++) {
+  carouselItems[i].setAttribute(
+    "style",
+    `background-image:${carouselItem[i]["li-gradient"]}, url(${carouselItem[i].imageURL});`
+  );
+
+  carouselItems[i].innerHTML = `
+  <div class="carousel-caption mt-5 px-5 text-center mx-auto d-block">
+  <h5 class="display-2 fw-normal mb-5">${carouselItem[i].h5}</h5>
+  <p class="lead fw-normal ">${carouselItem[i].p} </p>
+</div>
+  `;
+}
+
+// carouselInner.innerHTML = allCarousel;

@@ -46,3 +46,62 @@ export const servicesList = [
     p2: "Interiors",
   },
 ];
+
+export const carouselItem = [
+  {
+    id: 1,
+    imageURL: "./images/banner/1.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+  {
+    id: 2,
+    imageURL: "./images/banner/2.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "2Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+  {
+    id: 3,
+    imageURL: "./images/banner/3.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "3Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+  {
+    id: 4,
+    imageURL: "./images/banner/4.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "4Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+  {
+    id: 5,
+    imageURL: "./images/banner/5.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "5Emerging as a major player in the facility management space",
+    p: "Some asdf placeholder content for the first slide",
+  },
+  {
+    id: 6,
+    imageURL: "./images/banner/6.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "6Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+  {
+    id: 7,
+    imageURL: "./images/banner/7.jpg",
+    "li-gradient":
+      "linear-gradient(to right top,rgba(5, 25, 55, 0.5),rgba(0, 77, 122, 0.5),rgba(0, 135, 147, 0.5),rgba(0, 191, 114, 0.5),rgba(168, 235, 18, 0.5))",
+    h5: "7Emerging as a major player in the facility management space",
+    p: "Some representative placeholder content for the first slide",
+  },
+];

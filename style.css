@@ -1,7 +1,9 @@
-body {
-  height: 100vh;
-  min-height: 100vh;
-  width: 100vw;
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .nav-item .nav-link {
@@ -19,35 +21,19 @@ body {
 
 .carousel-item {
   position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.carousel-item img {
-  height: 90vh;
-  object-fit: cover;
-}
-
-.carousel-item p {
-  display: none;
-}
-
-.carousel-item div {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(3px) saturate(180%);
-
-  height: 50%;
-  min-width: 320px;
-  width: 80%;
+.carousel-item .carousel-caption {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: grid;
-  place-items: center;
-  border-radius: 12px;
-}
-
-.carousel-item .carousel-caption h5 {
-  opacity: 1;
+  width: 100%;
+  text-shadow: 0px 0px 15px rgba(150, 150, 150, 1);
 }
 
 .flexBox {
