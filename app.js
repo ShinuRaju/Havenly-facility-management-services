@@ -34,7 +34,7 @@ let wholeImages = [];
 
 for (let i = 1; i <= 36; i++) {
   wholeImages.push(
-    `<img src="./images/gallery/galls${i
+    `<img class="d-block mx-auto g-4" src="./images/gallery/galls${i
       .toString()
       .padStart(2, "0")}.jpg" alt="image${1}">`
   );
